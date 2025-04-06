@@ -1,0 +1,65 @@
+productAPI
+
+POST
+http://localhost:8080/api/products/add
+
+
+{
+    "id":1,
+    "name": "track pants",
+    "description":"these are running and training track pants",
+    "price": "80.99"
+}
+
+{
+    "id":2,
+    "name": "track pants",
+    "description":"these are running and training track pants",
+    "price": "80.99"
+}
+
+{
+    "id":3,
+    "name": "dryfit t-shirt",
+    "description":"This soft fitness tee is made with lightweight and breathable fabric. Dri-FIT technology moves sweat away from your skin for quicker evaporation, helping you stay dry and comfortable.",
+    "price": "45.99"
+}
+
+
+--------------------------
+Search Product
+
+GET
+http://localhost:8080/api/products/search?name=dryfit t-shirt
+
+--------------------------
+Get Product by ID
+
+GET
+http://localhost:8080/api/products/get/3
+
+--------------------------
+
+GetAll
+GET
+http://localhost:8080/api/products/getAll
+
+--------------------------
+
+Update Product
+UPDATE
+http://localhost:8080/api/products/update/2
+
+{
+    "price" : "88.59"
+}    
+
+--------------------------
+
+Delete Product
+DELETE
+http://localhost:8080/api/products/delete/3
+
+
+
+
