@@ -1,4 +1,8 @@
 productAPI
+======================
+
+Use Postman to perform following actions
+-------------------------------------------
 
 POST
 http://localhost:8080/api/products/add
